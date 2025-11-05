@@ -40,6 +40,20 @@ Maven installed
 
 Allure command-line tool installed
 
+# Dependencies and Tooling
+
+`RestAssured`: for HTTP request/response handling.
+
+`TestNG`: for test execution and suite organization.
+
+`Allure`: for test reporting.
+
+`Log4j2`: for structured logging.
+
+`Lombok`: to reduce boilerplate code in DTOs and utility classes (make sure your IDE has the Lombok plugin enabled and annotation processing turned on; otherwise the project won’t compile).
+
+`Awaitility`: for handling delayed or asynchronous API responses.
+
 
 # How to Run Tests
 
