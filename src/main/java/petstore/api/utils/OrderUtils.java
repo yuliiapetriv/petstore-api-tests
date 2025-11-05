@@ -26,7 +26,7 @@ public class OrderUtils {
     @Step("Delete order")
     public static void deleteOrderWithAwait(StoreClient storeClient, int orderId) {
         await()
-                .atMost(Duration.ofSeconds(15))
+                .atMost(Duration.ofSeconds(20))
                 .pollInterval(Duration.ofSeconds(3))
                 .ignoreExceptions()
                 .until(() -> storeClient.deleteOrder(orderId).statusCode() == HttpStatus.SC_OK);

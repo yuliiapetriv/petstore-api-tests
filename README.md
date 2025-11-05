@@ -61,7 +61,7 @@ Run all tests using TestNG XML suite:
 
 `mvn clean test`
 
-Test suite file: `src/test/resources/petstore-api.xml`
+Test suite file: `src/test/resources/petstore_api.xml`
 
 # Generate Allure Report
 Serve Allure report locally:

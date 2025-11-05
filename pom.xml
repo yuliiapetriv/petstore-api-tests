@@ -124,7 +124,7 @@
         <version>3.2.5</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/pestore_api.xml</suiteXmlFile>
+            <suiteXmlFile>src/test/resources/petstore_api.xml</suiteXmlFile>
           </suiteXmlFiles>
           <systemPropertyVariables>
             <allure.results.directory>target/allure-results</allure.results.directory>

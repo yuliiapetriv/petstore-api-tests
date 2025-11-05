@@ -3,7 +3,6 @@ package petstore.api.config;
 import io.restassured.RestAssured;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.annotations.BeforeSuite;
 import petstore.api.endpoints.Endpoints;
 
 public class RestAssuredConfig {
@@ -14,7 +13,6 @@ public class RestAssuredConfig {
     private RestAssuredConfig() {
     }
 
-    @BeforeSuite(alwaysRun = true)
     public static void init() {
         if (!initialized) {
             synchronized (RestAssuredConfig.class) {

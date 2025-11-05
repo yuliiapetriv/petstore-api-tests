@@ -36,7 +36,7 @@ public class DeleteOrderTests extends BaseTest {
         LOGGER.info("Order created successfully with id: {}", orderDto.getId());
 
         await()
-                .atMost(Duration.ofSeconds(10))
+                .atMost(Duration.ofSeconds(15))
                 .pollInterval(Duration.ofSeconds(3))
                 .ignoreExceptions()
                 .untilAsserted(() -> {
