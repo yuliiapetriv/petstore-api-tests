@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PetStore API Tests">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Store API Tests">
+        <classes>
+            <class name="petstore.api.tests.store.CreateOrderTests"/>
+            <class name="petstore.api.tests.store.GetOrderTests"/>
+            <class name="petstore.api.tests.store.DeleteOrderTests"/>
+            <class name="petstore.api.tests.store.GetInventoryTests"/>
+        </classes>
+    </test>
+</suite>

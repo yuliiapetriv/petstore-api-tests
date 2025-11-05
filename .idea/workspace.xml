@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63ff693d-dfe9-4fd8-a5cf-dca5e2f867e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/api/clients/StoreClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/api/config/ApiHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/api/config/RestAssuredConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/api/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/api/endpoints/Endpoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/api/utils/OrderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/api/store_order_response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/petstore/api/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/petstore/api/tests/store/CreateOrderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/petstore/api/tests/store/DeleteOrderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/petstore/api/tests/store/GetInventoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/petstore/api/tests/store/GetOrderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pestore_api.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/api" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="petstore.api.utils" />
+      <recent name="petstore.api.endpoints" />
+      <recent name="petstore.api.clients" />
+      <recent name="petstore.api.config" />
+      <recent name="petstore.api.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.CreateOrderTests.checkCreateOrderRequestWithValidData">
+    <configuration name="CreateOrderTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petstore.api.tests.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="petstore.api.tests.store" />
+      <option name="MAIN_CLASS_NAME" value="petstore.api.tests.store.CreateOrderTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderTests.checkCreateOrderRequestWithValidData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petstore.api.tests.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="petstore.api.tests.store" />
+      <option name="MAIN_CLASS_NAME" value="petstore.api.tests.store.CreateOrderTests" />
+      <option name="METHOD_NAME" value="checkCreateOrderRequestWithValidData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteOrderTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petstore.api.tests.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="petstore.api.tests.store" />
+      <option name="MAIN_CLASS_NAME" value="petstore.api.tests.store.DeleteOrderTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteOrderTests.checkDeleteOrderRequestWithValidId" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petstore.api.tests.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="petstore.api.tests.store" />
+      <option name="MAIN_CLASS_NAME" value="petstore.api.tests.store.DeleteOrderTests" />
+      <option name="METHOD_NAME" value="checkDeleteOrderRequestWithValidId" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetInventoryTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petstore.api.tests.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="petstore.api.tests.store" />
+      <option name="MAIN_CLASS_NAME" value="petstore.api.tests.store.GetInventoryTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CreateOrderTests.checkCreateOrderRequestWithValidData" />
+        <item itemvalue="TestNG.DeleteOrderTests.checkDeleteOrderRequestWithValidId" />
+        <item itemvalue="TestNG.CreateOrderTests" />
+        <item itemvalue="TestNG.DeleteOrderTests" />
+        <item itemvalue="TestNG.GetInventoryTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63ff693d-dfe9-4fd8-a5cf-dca5e2f867e8" name="Changes" comment="" />
+      <created>1762249643803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762249643803</updated>
+    </task>
+    <servers />
+  </component>
+</project>
