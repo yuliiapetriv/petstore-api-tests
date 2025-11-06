@@ -10,7 +10,9 @@ public class DataGenerator {
     }
 
     public static int generateRandomId() {
-        return ThreadLocalRandom.current().nextInt(1, 1000);
+        long timestamp = System.currentTimeMillis() % 100000;
+        int randomPart = ThreadLocalRandom.current().nextInt(1, 100);
+        return (int) (timestamp * 100 + randomPart);
     }
 
     public static String generateCurrentIsoDate() {

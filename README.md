@@ -1,6 +1,6 @@
 # PetStore API Automated Tests
 
-This project contains automated API tests for the PetStore application, implemented with Java, TestNG, RestAssured, and Allure for reporting.
+This project contains automated API tests for the PetStore application https://petstore.swagger.io/#/, implemented with Java, TestNG, RestAssured, and Allure for reporting.
 
 # Project Structure
 The project is structured according to a modular and scalable architecture, separating configuration, API clients, data models, and test logic.
@@ -50,7 +50,7 @@ Allure command-line tool installed
 
 `Log4j2`: for structured logging.
 
-`Lombok`: to reduce boilerplate code in DTOs and utility classes (make sure your IDE has the Lombok plugin enabled and annotation processing turned on; otherwise the project won’t compile).
+`Lombok`: to reduce boilerplate code in DTOs and utility classes (make sure your IDE has the Lombok plugin enabled and annotation processing turned on, otherwise the project won’t compile).
 
 `Awaitility`: for handling delayed or asynchronous API responses.
 
@@ -119,7 +119,7 @@ The testing approach focused on achieving functional coverage and API reliabilit
   * Additional issue: repeated DELETE calls are not idempotent
     * 1st call: returns 200 OK (order deleted successfully)
     * 2nd call: still returns 200 OK, even though the order no longer exists
-    * 3rd call: finally returns 404 Not Found
+    * 3rd call: returns 404 Not Found
 
 * GET /store/order/{orderId}
   * Expected: returns 400 “Invalid ID supplied” for IDs <1, >10, or non-numeric.
@@ -142,6 +142,8 @@ For example, transient 404 responses immediately after valid operations (especia
 **Mitigation Measures**
 
 To ensure test suite stability and avoid false negatives, only a limited number of negative test cases were implemented.
+
+To prevent conflicts caused by the API allowing duplicate order IDs, the project includes a custom ID generation strategy implemented in the `generateRandomId()` method.
 
 Additional validation or error-handling tests (e.g., for invalid data, negative IDs, or boundary conditions) were intentionally omitted because the API does not return correct or consistent status codes in such scenarios - making those tests unreliable and not meaningful for result verification.
 
